@@ -10,7 +10,7 @@ public class LibraryTest {
 
     @Before
     public void before() {
-        library = new Library();
+        library = new Library(3);
         book = new Book();
     }
 
@@ -29,6 +29,12 @@ public class LibraryTest {
 
     @Test
     public void isLibraryFull(){
+        library.addBook(book);
+        library.addBook(book);
+        library.addBook(book);
+        assertEquals(true, library.maxCapacity());
+
+
 
     }
 

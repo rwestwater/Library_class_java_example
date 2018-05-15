@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44bf79ea-5a57-441c-ba01-ab9a3bb5a89d" name="Default" comment="" />
+    <list default="true" id="44bf79ea-5a57-441c-ba01-ab9a3bb5a89d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules/LibraryClassExample_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/LibraryClassExample_main.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Borrower.java" afterPath="$PROJECT_DIR$/src/main/java/Borrower.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Library.java" afterPath="$PROJECT_DIR$/src/main/java/Library.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BorrowerTest.java" afterPath="$PROJECT_DIR$/src/test/java/BorrowerTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LibraryTest.java" afterPath="$PROJECT_DIR$/src/test/java/LibraryTest.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -22,17 +29,15 @@
       <file leaf-file-name="Library.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Library.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="420">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
-                <element signature="e#108#109#0" expanded="true" />
-                <element signature="e#153#154#0" expanded="true" />
-                <element signature="e#183#184#0" expanded="true" />
-                <element signature="e#222#223#0" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#255#256#0" expanded="true" />
                 <element signature="e#294#295#0" expanded="true" />
-                <element signature="e#326#327#0" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
+                <element signature="e#366#367#0" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -41,8 +46,8 @@
       <file leaf-file-name="LibraryTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/LibraryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+            <state relative-caret-position="399">
+              <caret line="32" column="19" lean-forward="false" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,8 +58,8 @@
       <file leaf-file-name="Borrower.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Borrower.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+            <state relative-caret-position="165">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -63,8 +68,8 @@
       <file leaf-file-name="BorrowerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/BorrowerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+            <state relative-caret-position="75">
+              <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -375,7 +380,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/main/java/Borrower.java" />
         <option value="$PROJECT_DIR$/src/test/java/LibraryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BorrowerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Library.java" />
       </list>
     </option>
@@ -467,7 +474,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.LibraryTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -498,6 +505,26 @@
       <option name="MAIN_CLASS_NAME" value="LibraryTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="LibraryTest.canGetBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="LibraryClassExample_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LibraryTest" />
+      <option name="METHOD_NAME" value="canGetBook" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -569,9 +596,14 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.LibraryTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.LibraryTest.canGetBook" />
+    </list>
     <recent_temporary>
-      <list size="1">
+      <list size="2">
         <item index="0" class="java.lang.String" itemvalue="JUnit.LibraryTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.LibraryTest.canGetBook" />
       </list>
     </recent_temporary>
   </component>
@@ -598,6 +630,18 @@
     <history-entry file="LibraryTest - 2018.05.15 at 16h 00m 30s.xml">
       <configuration name="LibraryTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LibraryTest - 2018.05.15 at 16h 10m 21s.xml">
+      <configuration name="LibraryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest - 2018.05.15 at 16h 27m 57s.xml">
+      <configuration name="LibraryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_canGetBook - 2018.05.15 at 16h 10m 10s.xml">
+      <configuration name="LibraryTest.canGetBook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_canGetBook - 2018.05.15 at 16h 10m 13s.xml">
+      <configuration name="LibraryTest.canGetBook" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -605,7 +649,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -657,22 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BorrowerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Borrower.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -681,10 +709,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Borrower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BorrowerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LibraryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        <state relative-caret-position="399">
+          <caret line="32" column="19" lean-forward="false" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -693,17 +737,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Library.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="420">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
-            <element signature="e#108#109#0" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
             <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
           </folding>
         </state>
       </provider>

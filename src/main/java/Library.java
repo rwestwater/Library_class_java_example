@@ -3,8 +3,10 @@ import java.util.ArrayList;
 public class Library {
 
     private ArrayList<Book> book;
+    private int capacity;
 
-    public Library(){
+    public Library(int capacity){
+        this.capacity = capacity;
         this.book = new ArrayList<>();
     }
 
@@ -18,5 +20,11 @@ public class Library {
 
     public Book removeBook() {
         return this.book.remove(0);
+    }
+
+    public boolean maxCapacity() {
+        if(this.bookCount() == capacity)
+          return true;
+        return false;
     }
 }
